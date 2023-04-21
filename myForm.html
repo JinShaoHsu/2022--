@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>熊貓問卷調查</title>
+  </head>
+  <body>
+    <form action="" method="GET">
+      <lable for="myname">姓名：</lable>
+      <input
+        id="myname"
+        type="text"
+        name="InputName"
+        required
+        value="Peter Wang"
+        placeholder="請輸入真實姓名"
+      />
+      <br />
+      <label for="tele">電話：</label>
+      <input id="tele" type="text" name="telephone" />
+      <br />
+      <label for="email">信箱：</label>
+      <input for="email" type="email" name="email" />
+      <br />
+      <label for="age">年齡：</label>
+      <input
+        id="age"
+        type="number"
+        name="age"
+        value="18"
+        min="0"
+        max="150"
+        required
+      />
+      <br />
+      <input
+        type="checkbox"
+        id="checkbox"
+        name="news"
+        value="newspaper"
+        checked
+      />
+      <label for="checkbox">訂閱熊貓電子報</label>
+      <br />
+      <button type="submit">提交表單</button>
+    </form>
+  </body>
+</html>
